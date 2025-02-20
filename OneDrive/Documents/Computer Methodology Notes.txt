@@ -1,0 +1,59 @@
+Agile Development Life Cycle:
+(There's no one authoritative model)
+-We're mostly interested in the Iteration/Construction step of the cycle because this is the main part of the Agile Life Cycle. That's when the development team works to deliver working software based on iteration requirements and feedback. 
+
+The Iterative Process:
+-Each iteration/sprint delivers the next piece of the puzzle, based on the project requirements
+-Iterations are broken up by stories (stories are composed of the functional requirements that this iteration is meant to accomplish. They're called stories and not functional requirements because "story" gives a more detailed description of the goal, like with added detail and more descriptive), expressed from the users' perspective.
+-Iterations are often called sprints and have a fixed duration, like 2 weeks
+-Sprint planning includes all team members, stakeholders, and users
+-Items from the backlog are designated for inclusion in a sprint
+-Team members might have daily "stand-ups" to touch base (1.what you accomplished, 2. what you plan on doing now, 3. blockers)
+-Each sprint must deliver a demonstrable & valuable deliverable
+-The resulting deliverable must be evaluated
+-Stakeholders/users must be involved in the evaluation of the deliverables
+-The iteration itself must be evaluated (that evaluation ceremony is called a retrospective)
+-Improvements must be planned into future sprints
+-The achieved velocity should be used to improve SWAG and future sprint planning
+
+What does this mean for a developer?
+-You must read a story properly and demand more information ASAP if needed
+-Always be ready to "stand-up" say 1.what you accomplished, 2. what you plan on doing now, 3. blockers
+-You must be able to demonstrate your work
+-You must be able to work with and appreciate the contributions of all team members
+-Use tools that enable and complement the iterative process
+-Most importantly: We must write software that works; works properly with other components (even ones which have not yet been written); does not break other components; The code we write will for sure be scrutinized, extended, and refactored during future sprints either by you or by another team member
+
+How will we learn to do this?
+We'll study techniques, design principles, and tools to:
+-Make our code more readable/understandable to others
+-Allow our code to be testes in isolation from other components
+-Use predefined and well-proven design patterns to speed up development and facilitate cinnon practices
+-Learn when to favor/avoid certain Java/OOD features to facilitate future enhancements
+-Frequently refactor to reflect the pace of product evolution
+-Structure code so that it is more easily refactored
+-Appreciate contracts
+
+Buzzwords:
+story
+backlog
+sprint
+stand-up
+demo
+retrospective
+refactoring (!BDUF)
+velocity
+scrum
+extreme programming (XP)
+
+Introduction to Version Control:
+2 types of version control systems:
+Centralized- (e.g.) google maps while online, 
+Distributed- (e.g.) google maps downloaded, a cloned repository from GitHub on intelliJ
+Subversion and Git are Open Source
+
+Centralized pro's - easy to set up, More control for those in charge as to what each developer can access
+Distributed pro's - Every developer has their own local repository and doesn't need internet connection to have version control 
+
+
+
